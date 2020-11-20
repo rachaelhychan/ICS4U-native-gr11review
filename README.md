@@ -1,5 +1,13 @@
 # Grade 11 Java Review
 
+## Instructions
+Program the solutions for each problem in their respective files found in the `src/gr11review/part1 directory`.  You are required to:
+* code your solutions in repl.it
+* commit and push your changes to github
+* use proper style conventions for variable names and comments.
+
+
+
 ## Part 1
 ### Review1.java - Decisions-if
 Create a program that asks the user to enter a month number (1 = January, 2 = February etc.) and day and then prints the day of the year. Assume that it is not a leap year.
