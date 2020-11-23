@@ -39,7 +39,7 @@ public class Review3Test {
 
         // run the comparison
         Review3.main(null);
-        assertEquals(solutionStr.strip(), out.toString().strip());
+        assertEquals(solutionStr.trim(), out.toString().trim());
 
     }
 

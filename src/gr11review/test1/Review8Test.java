@@ -44,15 +44,15 @@ public class Review8Test {
         // run the comparison
         Review8.main(null);
 
-        outArray = out.toString().strip().split(sep);
+        outArray = out.toString().trim().split(sep);
 
         // scan
         for (int i = 0; i< outArray.length-1;i++){
 
             singleArray = outArray[i].split(" ");
-            num1 = singleArray[0].strip();
-            num2 = singleArray[1].strip();
-            num3 = singleArray[2].strip();
+            num1 = singleArray[0].trim();
+            num2 = singleArray[1].trim();
+            num3 = singleArray[2].trim();
 
             if(num1.equals(num2) &&  num2.equals(num3)){
                 tripleCount++;

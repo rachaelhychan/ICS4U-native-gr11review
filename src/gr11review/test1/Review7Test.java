@@ -71,7 +71,7 @@ public class Review7Test {
    
         // run the comparison
         Review7.main(null);
-        assertEquals(expectedOutput.strip(), out.toString().strip(), "Failed testMain1");
+        assertEquals(expectedOutput.trim(), out.toString().trim(), "Failed testMain1");
 
     }
 
@@ -98,7 +98,7 @@ public class Review7Test {
    
         // run the comparison
         Review7.main(null);
-        assertEquals(expectedOutput.strip(), out.toString().strip(), "Failed testMain2");
+        assertEquals(expectedOutput.trim(), out.toString().trim(), "Failed testMain2");
     }
 
     /**
@@ -124,7 +124,7 @@ public class Review7Test {
    
         // run the comparison
         Review7.main(null);
-        assertEquals(expectedOutput.strip(), out.toString().strip(), "Failed testMain3");
+        assertEquals(expectedOutput.trim(), out.toString().trim(), "Failed testMain3");
     }
 
     /**
@@ -150,7 +150,7 @@ public class Review7Test {
    
         // run the comparison
         Review7.main(null);
-        assertEquals(expectedOutput.strip(), out.toString().strip(), "Failed testMain4");
+        assertEquals(expectedOutput.trim(), out.toString().trim(), "Failed testMain4");
     }
 
     /**
@@ -176,7 +176,7 @@ public class Review7Test {
    
         // run the comparison
         Review7.main(null);
-        assertEquals(expectedOutput.strip(), out.toString().strip(), "Failed testMain5");
+        assertEquals(expectedOutput.trim(), out.toString().trim(), "Failed testMain5");
     }
     
 

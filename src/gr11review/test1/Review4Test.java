@@ -48,7 +48,7 @@ public class Review4Test {
    
         // run the comparison
         Review4.main(null);
-        assertEquals(expectedOutput.strip(), out.toString().strip(), "Failed testMain0");
+        assertEquals(expectedOutput.trim(), out.toString().trim(), "Failed testMain0");
 
     }
 
@@ -105,7 +105,7 @@ public class Review4Test {
    
         // run the comparison
         Review4.main(null);
-        assertEquals(expectedOutput.strip(), out.toString().strip(), "Failed testMain1");
+        assertEquals(expectedOutput.trim(), out.toString().trim(), "Failed testMain1");
     }
 
     /**
@@ -136,7 +136,7 @@ public class Review4Test {
    
         // run the comparison
         Review4.main(null);
-        assertEquals(expectedOutput.strip(), out.toString().strip(), "Failed testMain2");
+        assertEquals(expectedOutput.trim(), out.toString().trim(), "Failed testMain2");
     }
 
 

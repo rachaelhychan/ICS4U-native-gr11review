@@ -74,6 +74,6 @@ public class Review2Test {
    
         // run the comparison
         Review2.main(null);
-        assertEquals(expectedOutput.strip(), out.toString().strip());
+        assertEquals(expectedOutput.trim(), out.toString().trim());
     }
 }
