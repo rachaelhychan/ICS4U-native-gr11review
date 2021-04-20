@@ -16,7 +16,7 @@ public class Review2Test {
     private final PrintStream sysOutBackup = System.out; // backup System.out to restore later
     private final String sep = System.getProperty("line.separator");
 
-    private final String outputMenu = "0 - print an joke about your hair" + sep +
+    private final String outputMenu = "0 - print a joke about your hair" + sep +
     "1 - print a joke about your feet" + sep +
     "2 - print a joke about your clothes" + sep + 
     "3 - print a joke about your teacher" + sep +
