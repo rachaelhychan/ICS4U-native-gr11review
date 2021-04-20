@@ -21,13 +21,14 @@ Enter the day number: 14
 
 ### Review2.java - Decisions - switch/case
 Create a program that prints out a statement of options. Allow the user to select an option and react appropriately to the option selection using a switch case structure. The options should be as follows:
-0 - print an joke about your hair
+0 - print a joke about your hair
 1 - print a joke about your feet
-2 - print a joke about your clothes 3 - print a joke about your teacher.  If an invalid option number is entered (i.e `4`), output `Invalid menu option`.
+2 - print a joke about your clothes 
+3 - print a joke about your teacher.  If an invalid option number is entered (i.e `4`), output `Invalid menu option`.
 
 #### Sample Run
 ```
-0 - print an joke about your hair
+0 - print a joke about your hair
 1 - print a joke about your feet
 2 - print a joke about your clothes
 3 - print a joke about your teacher
