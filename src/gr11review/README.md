@@ -67,11 +67,11 @@ Create a cash register program similar to the one above, except instead of promp
 
 #### Sample Run
 ```
-Enter the price for item 1: 2.50
-Enter the price for item 2: 3.99
-Enter the price for item 3: 6.99
-Enter the price for item 4: 7.99
-Enter the price for item 5: 0
+Enter the price for an item: 2.50
+Enter the price for an item: 3.99
+Enter the price for an item: 6.99
+Enter the price for an item: 7.99
+Enter the price for an item: 0
 Subtotal: $21.47
 Tax: $2.79
 Total: $24.26
