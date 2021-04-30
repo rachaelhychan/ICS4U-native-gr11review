@@ -94,6 +94,15 @@ Stats about the sentence:
 * There are # letter a in the sentence.
 * Taking the odd numbered characters in the sentence produces the following string “---------“
 
+#### Sample Run
+```
+aaa bbb
+There are 7 characters in the sentence.
+There are 1 spaces in the sentence.
+There are 3 letter a in the sentence.
+----
+```
+
 ### Review8.java - Pre-defined methods - Random
 Create a program that simulates 1000 pulls of a slot machine, such that 3 random numbers (between 0 and 8) are generated for each pull.  Output the result of each pull on a single line (a space separating the 3 numbers) and the total count of the number times a triple (all 3 numbers equal) was pulled.
 
