@@ -5,6 +5,7 @@ Program the solutions for each problem in their respective files found in the `s
 * code your solutions in repl.it or VS Code
 * commit and push your changes to github
 * use proper style conventions for variable names and comments.
+* Full marks awarded for matching the sample runs EXACTLY AS SHOWN
 
 
 
