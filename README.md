@@ -2,7 +2,7 @@
 
 ## Instructions
 Program the solutions for each problem in their respective files found in the `src/gr11review/part1 directory`.  You are required to:
-* code your solutions in repl.it
+* code your solutions in repl.it or VS Code
 * commit and push your changes to github
 * use proper style conventions for variable names and comments.
 
@@ -72,7 +72,7 @@ After the first year `$100.00` has been invested and the interest is `2.5/100*10
 In the second year another $100.00 is invested for a total of $202.50, and the interest is 2.5/100 * 202.50 = 5.06. The amount after two years is `202.50 + 5.06 =  207.56` ... this continues until the total amount surpasses $1800.  In this case it will be 15 years. 
 
 ### Review6.java - Iteration - while loop 2
-Create a cash register program similar to the one above, except instead of prompting for the number items, the user is able to keep entering item prices until the enter 0.  Import and use the `java.text.DecimalFormat` class to output the information in currency format (0.00)
+Create a cash register program similar to the one above, except instead of prompting for the number items, the user is able to keep entering item prices until the enter 0.  Import and use the [`java.text.DecimalFormat`](https://jenkov.com/tutorials/java-internationalization/decimalformat.html) class to output the information in currency format (0.00)
 
 #### Sample Run
 ```
