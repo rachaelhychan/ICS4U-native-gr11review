@@ -20,7 +20,7 @@ public class Review2{
         System.out.print("Choose a menu option: ");
         intUserNum = Integer.parseInt(key.readLine());
 
-        // Switch case structure to output the correct joke for each option
+        // Outputs the correct joke for each option
         switch (intUserNum){
             case 0: 
                 System.out.println("Why do bees have stinky hair?");
