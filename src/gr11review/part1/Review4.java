@@ -6,10 +6,13 @@ import java.text.*;
 
 public class Review4{
     public static void main(String[] args) throws IOException{
+        // Set up keyboard input
         BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
         
+        // Set up number format for currency
         NumberFormat numberFormat = new DecimalFormat("#,###.00");
 
+        // Declare and initialize variables
         int intNumOfItems;
         double dblCurrentItem;
         double dblSubtotal;
@@ -17,20 +20,25 @@ public class Review4{
         double dblTax;
         double dblTotal;
 
+        // Get user input for number of items
         System.out.print("How many items do you want to buy? ");
         intNumOfItems = Integer.parseInt(key.readLine());
 
+        // Get user input for the price of each item and add them together
         for(int intCounter = 1; intCounter <= intNumOfItems; intCounter ++){
             System.out.print("Enter the price for item " + intCounter + ": ");
             dblCurrentItem = Double.parseDouble(key.readLine());
             dblSubtotal = dblSubtotal + dblCurrentItem;
         }
 
+        // Output subtotal
         System.out.println("Subtotal: $" + numberFormat.format(dblSubtotal));
 
+        // Calculate and output tax amount
         dblTax = dblSubtotal * 0.13;
         System.out.println("Tax: $" + numberFormat.format(dblTax));
 
+        // Calculate and output final total 
         dblTotal = dblSubtotal + dblTax;
         System.out.println("Total: $" + numberFormat.format(dblTotal));
 
