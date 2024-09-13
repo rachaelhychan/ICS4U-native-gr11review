@@ -41,6 +41,5 @@ public class Review4{
         // Calculate and output final total 
         dblTotal = dblSubtotal + dblTax;
         System.out.println("Total: $" + numberFormat.format(dblTotal));
-
     }
 }
