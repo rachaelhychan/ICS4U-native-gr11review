@@ -10,7 +10,7 @@ public class Review6{
         BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
         
         // Set up number format for currency
-        NumberFormat numberFormat = new DecimalFormat("#,###.00");
+        NumberFormat numberFormat = new DecimalFormat("#,##0.00");
 
         // Declare and initialize variables
         double dblCurrentItem;

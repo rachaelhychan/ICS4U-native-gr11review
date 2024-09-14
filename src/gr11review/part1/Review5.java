@@ -37,6 +37,6 @@ public class Review5{
         }
 
         // Output the number of years
-        System.out.print("The target amount will be earned in " + intNumOfYears + " years.");
+        System.out.println("The target amount will be earned in " + intNumOfYears + " years.");
     }
 }

@@ -33,5 +33,15 @@ public class Review7{
         }
 
         System.out.println("There are " + intNumOfA + " letter a in the sentence.");
+
+        if(theSentence.length() % 2 == 0){
+            for(int intCounter = 0; intCounter < ((theSentence.length()) / 2); intCounter++){
+                System.out.print("-");
+            }
+        }else{
+            for(int intCounter = 0; intCounter < ((theSentence.length()) / 2) + 1; intCounter++){
+                System.out.print("-");
+            }
+        }
     }
 }
