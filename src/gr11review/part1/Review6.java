@@ -4,7 +4,27 @@ import java.io.*;
 
 import java.text.*;
 
+/**
+ * The Review6 class prompts the user to enter the prices for each of the items they 
+ * have until the user enters zero, then the programcalculates and outputs the subtotal,
+ * tax, and grand total of the items.
+ * 
+ * This program loops a loop that takes the item prices from the user input in the console
+ * and adds them together. The loop is looped until the user enters 0 as the price of an item, 
+ * then the subtotal is outputted, the tax is calculated at 13% of the subtotal, 
+ * and then the grand total is outputted.
+ * 
+ * @author: R. Chan
+ */
+
 public class Review6{
+
+    /**
+     * Main method to execute the program logic.
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException{
         // Set up keyboard input
         BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

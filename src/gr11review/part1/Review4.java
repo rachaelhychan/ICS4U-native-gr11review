@@ -4,7 +4,27 @@ import java.io.*;
 
 import java.text.*;
 
+/**
+ * The Review4 class prompts the user to enter how many items they would like to 
+ * purchase, then gets the prices for each of the items, then calculates and 
+ * outputs the subtotal, tax, and grand total of the items.
+ * 
+ * This program asks the user for the number of items, then loops a loop for the number
+ * of items the user has. This loop takes the item prices and adds them together, 
+ * then the subtotal is outputted, the tax is calculated at 13% of the subtotal, 
+ * and then the grand total is outputted.
+ * 
+ * @author: R. Chan
+ */
+
 public class Review4{
+
+    /**
+     * Main method to execute the program logic.
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException{
         // Set up keyboard input
         BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

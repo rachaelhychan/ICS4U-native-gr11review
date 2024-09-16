@@ -2,7 +2,24 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+ * The Review2 class gives the user a statement of options which prompts the 
+ * user to choose a specific joke option, then displays the joke for that option. 
+ * 
+ * This program uses a switch case structure to react appropriately to the option 
+ * selection and outputs the appropriate joke, if an invalid option is entered it 
+ * will output the default "Invalid menu option."
+ * 
+ * @author: R. Chan
+ */
 public class Review2{
+
+    /**
+     * Main method to execute the program logic.
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException{
         // Set up keyboard input
         BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

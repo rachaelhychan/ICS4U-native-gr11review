@@ -4,7 +4,24 @@ import java.io.*;
 
 import java.util.Random;
 
+/**
+ * The Review8 class outputs 3 random numbers from 0 to 8 1000 times
+ * and outputs the number of times a triple (all 3 numbers equal) was pulled.
+ * 
+ * This program uses a random object to output three random numbers from 0 to 8, 
+ * compares the three numbers to see if a triple is pulled, and repeats that 1000 times. 
+ * Then, the program outputs the number of triples.
+ * 
+ * @author: R. Chan
+ */
 public class Review8{
+
+    /**
+     * Main method to execute the program logic.
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException{
         // Declare and initialize variables
         int intNum1;

@@ -2,7 +2,25 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+ * The Review7 class prompts the user to enter a sentence, then calculates 
+ * and displays the # of characters, spaces, and letter a. The program also produces
+ * a string where the number of dashes is the number of odd numbered characters in the sentence.
+ * 
+ * This program reads user input from the console to get the sentence, then computes and 
+ * outputs sentence length, uses for loops to determine # of spaces and letter a then outputs the result,
+ * and uses sentence length to determine number of odd characters in sentence, then outputs the result. 
+ * 
+ * @author: R. Chan
+ */
 public class Review7{
+
+    /**
+     * Main method to execute the program logic.
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException If there is an error during input
+     */
     public static void main(String[] args) throws IOException{
         // Set up keyboard input
         BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
