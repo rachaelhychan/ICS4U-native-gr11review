@@ -48,8 +48,7 @@ public class Review8{
         } 
 
         // Output # of triples 
-        System.out.println(intTriple);
-        
+        System.out.println(intTriple);  
     }
 }
 

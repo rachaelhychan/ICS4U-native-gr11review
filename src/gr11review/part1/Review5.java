@@ -14,7 +14,6 @@ import java.io.*;
  * 
  * @author: R. Chan
  */
-
 public class Review5{
 
     /**
